@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "type":"Private Room",
+       "street":"Via Giuseppe Mazzini",
+       "city":"Milano",
+       "province":"MI",
+       "street_number":"20",
+       "country":"Italy",
+       "cap":"20123",
+       "floor":1,
+       "tenants":2,
+       "baths":2,
+       "beds":2,
+       "images":[
+          {
+             "url":"https://placeimg.com/1280/960/arch?random=1"
+          }
+       ],
+       "price":610,
+       "currency":"EUR",
+       "title":"Camera luminosissima in Via Mazzini",
+       "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+       "available":true
+    },
+    {
+       "id":2,
+       "type":"Entire Property",
+       "street":"Via Olona",
+       "city":"Milano",
+       "province":"MI",
+       "street_number":"15",
+       "country":"Italy",
+       "cap":"20123",
+       "floor":9,
+       "tenants":5,
+       "baths":1,
+       "beds":5,
+       "images":[
+          {
+             "url":"https://placeimg.com/1280/960/arch?random=2"
+          }
+       ],
+       "price":1200,
+       "currency":"EUR",
+       "title":"Stupendo attico in Via Olona",
+       "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.",
+       "available":false
+    }
+]

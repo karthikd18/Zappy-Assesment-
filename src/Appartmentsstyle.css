@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+
+.Header{
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 25px;
+    color:grey;  
+}
+
+@media (min-width: 800px){
+    .Header{
+    display:grid;
+    grid-template-columns: auto auto auto;    
+    
+    }
+    .subMain{
+    margin-left: 150px;
+
+    }   
+}
+
+.subMain{
+    display: flex;
+    margin-left: 150px;
+}
+
+h1{
+    margin-left: 150px;
+}
+.subFooter{
+    color:turquoise;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subInfo{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+    
+
+
+.flex ul {
+    margin: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    border:gainsboro solid .5px;;
+    border-radius: 10px;
+    height: 700px;
+    width: 400px;
+    
+  }
+
+  .flex ul li {
+    list-style: none;   
+    padding: 10px;
+  }
+
+.Containerinfo{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    border-top:gainsboro solid 2px;;
+}
+
+.figure{
+    position: relative;
+}
+.containerImg{
+    object-fit: cover;
+    width:100%;
+    height: 300px;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ImgCaption{    
+    position:absolute;     
+    top:20px;
+    background-color: gainsboro;
+    color: black;  
+    border-radius: 5px;
+    background-color: lightgrey;
+    height: 50px;
+    width: auto;
+    text-align: center; 
+}
+
